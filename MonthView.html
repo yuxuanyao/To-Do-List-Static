@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MonthView</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id = "MonthViewBackground">
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-lg-2 " class = maincontainer>
+                    <form>
+                        <input type="button" class = "btn btn-default" id = "mainview" value="Main" onclick="window.location.href='index.html'" />
+                        <ul.circle {list-style-type: circle;} id= "mainexplanation">
+                        
+                            <li>Display tasks of Today</li>
+                            <li>Calendar should fit theme</li>
+                            <li>On hover, shows the tasks of the day</li>
+                            <li>Hover results in an add task button</li>
+                            <li>Should work like google calendar itself</li>
+                        
+                        </ul.circle>
+
+                    </form>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=l7nr1u57j4trfb1m4oio60o3ao%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FToronto" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="yes"></iframe>
+                </div>
+                <div class = "col-lg-2" class = maincontainer>
+                    <form>
+                        <input type="button" class = "btn btn-default" id = "longTerm" value="Life Goals" onclick="window.location.href='longTerm.html'" />
+                        <ul.circle {list-style-type: circle;} id= "mainexplanation">
+                        
+                            <li>Displays keywords of long term goals</li>
+                            <li>The page should run sentiment analysis in the background</li>
+                            <li>Alert pops up whenever tasks overloads for a day</li>
+                            <li>and whenever user overwhelms themselves</li>
+                            <li>and whenever user displays negative emotions through use of language</li>
+                            <li>Alert should be friendly and remind the user to rest</li>
+                        </ul.circle>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    
+    </body>
+</html>
