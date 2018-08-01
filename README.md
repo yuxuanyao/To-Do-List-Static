@@ -1,2 +1,2 @@
-# To-Do-Sentiment-Analysis-
-A to-do / task list that incorporates multiple aspects of planning into one webapp. This includes a calendar, Daily task list, and a list of future/career goals to provide motivation. It is planned to incorporate sentiment analysis through the use of the IBM watson API to alert the user of emotional downs through overwhelming tasks and language use in daily tasks
+# To-Do-List-
+A to-do / task list using HTML/CSS/Javascript on the web. This application is not connected to a database and therefore cannot store the information written in the to-do list
